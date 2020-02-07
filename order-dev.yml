@@ -12,5 +12,5 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/SpringCloud_Sell?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
   jpa:
     show-sql: true
-env: dev
+env: test
 
