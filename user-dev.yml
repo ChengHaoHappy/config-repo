@@ -1,11 +1,8 @@
 spring:
-  redis:
-    host: localhost
-    port: 6379
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
-    user: root
+    username: root
     password: 123456
     url: jdbc:mysql://127.0.0.1:3306/SpringCloud_Sell?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
   jpa:
-    show-sql: true
+   show-sql: true
